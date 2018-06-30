@@ -145,3 +145,15 @@ nav ul li:hover > ul {
 .gallery-image img:hover {
 	transform:scale(1.2);
 }
+.movie-section {
+	background-color: #66b8c4;
+	position: relative;
+	height: 400px;
+}
+.single-movie {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

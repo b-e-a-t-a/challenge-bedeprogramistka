@@ -97,3 +97,22 @@ nav ul li:hover > ul {
 	color:  #fbb619!important;
 	font-size: 40px;
 }
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+.about-section {
+	width: 100%;
+	background-color: #f29cd9;
+}
+.about-section h2 {
+	margin: 0;
+	font-size: 30px;
+	padding: 20px;
+}
+.about-section img {
+	margin: 10px auto 30px;
+	display: block;
+	width: 100%;
+}

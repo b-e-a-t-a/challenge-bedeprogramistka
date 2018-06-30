@@ -23,9 +23,47 @@ header {
 	padding-left: 15px;
 	line-height: 80px;
 }
-nav > ul {
+nav ul {
 	float: right;
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	position: relative;
+	width: 150px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #e00986;
+	line-height: 80px;
+	padding: 0 10px;
+	display: block;
+}
+nav ul li a:hover {
+	color: #fff;
+	transition-duration: 2s;
 }
 .clear {
 	clear: both;
+}
+nav ul ul {
+	background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+	text-align: left;
+	width: 100%;
+	border: 1px solid #e00986;
+	display: none;
+}
+nav ul ul li {
+	display: block;
+}
+nav ul ul li a {
+	padding: 0 15px;
+}
+nav ul li:hover > ul {
+	display: block;
+	position: absolute;
+	z-index: 1;
 }

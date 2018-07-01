@@ -158,6 +158,49 @@ nav ul li:hover > ul {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.contact-section {
+	max-width: 600px;
+	margin: 40px auto;
+	-webkit-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+ 	-moz-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+ 	box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+}
+form {
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: center;
+}
+label {
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	padding: 15px;
+}
+input {
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #66b8c4;
+	height: 40px;
+}
+textarea {
+	height: 100px;
+	width: 400px;
+	border: 1px solid #66b8c4;
+	display: block;
+	margin: 0 auto;
+}
+input[type="submit"], [type="reset"] {
+	display: inline-block;
+	cursor: pointer;
+	margin: 30px 5px;
+	max-width: 300px;
+	height: 50px;
+	font-size: 20px;
+	background: #f29cd9;
+	border: 1px solid #e00986;
+	border-radius: 5%;
+}
 .icon-section {
 	display: flex;
 	flex-flow: row wrap;

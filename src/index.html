@@ -62,7 +62,14 @@
 		</div>
 	</section>
 	<form action="form.php" method="POST">
-		
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" placeholder="Your name..." required />
+		<label for="email">E-mail</label>
+		<input type="email" name="email" id="email" placeholder="Your e-mail" required />
+		<label for="message">Message</label>
+		<textarea name="message" id="message" rows="3" required></textarea>
+		<input type="submit" name="submit" value="Send">
+		<input type="reset" name="submit" value="Delete data">
 	</form>
 	<section class="icon-section container">
 		<div class="icon fb-fans">

@@ -15,6 +15,9 @@ header {
 	background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
 	height: 80px;
 }
+.clear {
+	clear: both;
+}
 .nav-logo {
 	float: left;
 	color: #e00986;
@@ -44,23 +47,20 @@ nav ul li a {
 }
 nav ul li a:hover {
 	color: #fff;
-	transition-duration: 2s;
+	transition-duration: 1s;
 }
-.clear {
-	clear: both;
-}
+
 nav ul ul {
 	background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
-	text-align: left;
+	text-align: center;
 	width: 100%;
-	border: 1px solid #e00986;
 	display: none;
 }
 nav ul ul li {
 	display: block;
 }
 nav ul ul li a {
-	padding: 0 15px;
+	line-height: 50px;
 }
 nav ul li:hover > ul {
 	display: block;
@@ -114,7 +114,7 @@ nav ul li:hover > ul {
 .about-section img {
 	margin: 10px auto 30px;
 	display: block;
-	width: 100%;
+	width: 30%;
 }
 .gallery-section {
 	width: 100%;
@@ -136,7 +136,7 @@ nav ul li:hover > ul {
 	width: 300px;
 	height: 200px;
 	object-fit: cover;
-	margin: 10px 10px;
+	margin: 10px;
 	border: 5px solid #fff;
 	-webkit-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
  	-moz-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
@@ -144,6 +144,7 @@ nav ul li:hover > ul {
 }
 .gallery-image img:hover {
 	transform:scale(1.2);
+	cursor: pointer;
 }
 .movie-section {
 	background-color: #66b8c4;
@@ -189,5 +190,5 @@ footer {
 }
 footer a {
 	text-decoration: none;
-	color: #e00986;
+	color: #e00986
 }
